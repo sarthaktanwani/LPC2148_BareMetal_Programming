@@ -1,8 +1,0 @@
---cpu ARM7TDMI
-".\startup.o"
-".\7_seg.o"
-".\7seg_mux.o"
---strict --scatter ".\7_seg.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
---info sizes --info totals --info unused --info veneers
---list ".\7_seg.map" -o .\7_seg.axf

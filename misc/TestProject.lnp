@@ -1,6 +1,0 @@
---cpu ARM7TDMI
-".\main.o"
---strict --scatter ".\TestProject.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
---info sizes --info totals --info unused --info veneers
---list ".\TestProject.map" -o .\TestProject.axf

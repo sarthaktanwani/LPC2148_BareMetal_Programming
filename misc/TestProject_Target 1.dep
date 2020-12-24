@@ -1,5 +1,0 @@
-Dependencies for Project 'TestProject', Target 'Target 1': (DO NOT MODIFY !)
-CompilerVersion: 5060960::V5.06 update 7 (build 960)::ARMCC
-F (.\TestProject\main.c)(0x5BFCF56F)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="532"-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (C:\Keil_v5\ARM\INC\Philips\lpc21Xx.h)(0x559CFE30)
-F (.\74HC595\delay.h)(0x59F427A9)()

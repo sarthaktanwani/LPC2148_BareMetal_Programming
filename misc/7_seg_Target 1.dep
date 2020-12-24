@@ -1,13 +1,0 @@
-Dependencies for Project '7_seg', Target 'Target 1': (DO NOT MODIFY !)
-CompilerVersion: 5060960::V5.06 update 7 (build 960)::ARMCC
-F (.\Startup.s)(0x4F5858F0)(--cpu ARM7TDMI -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 532"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
-F (.\7_seg.c)(0x5BFC167B)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="532"-o .\7_seg.o --omf_browse .\7_seg.crf --depend .\7_seg.d)
-I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
-I (define.h)(0x59F427A9)
-I (delay.h)(0x59F427A9)
-F (.\define.h)(0x59F427A9)()
-F (.\delay.h)(0x59F427A9)()
-F (.\7_seg_MUX\7seg_MUX.c)(0x59F432F1)(-c --cpu ARM7TDMI -g -O0 --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="532"-o .\7seg_mux.o --omf_browse .\7seg_mux.crf --depend .\7seg_mux.d)
-I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559CFE30)
-I (7_seg_MUX\define.h)(0x59F427A9)
-I (7_seg_MUX\delay.h)(0x59F427A9)
