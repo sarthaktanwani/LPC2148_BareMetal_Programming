@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'OCFreaks.com_LPC214x_TimerIRQ_Tutorial.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"main.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "main.o" 
+--strict --scatter "OCFreaks.com_LPC214x_TimerIRQ_Tutorial.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\OCFreaks.map" -o OCFreaks.com_LPC214x_TimerIRQ_Tutorial.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'OCFreaks.com_LPC214x_TimerIRQ_Tutorial.axf'
+### ADS-LD Command File: 'OCFreaks.com_LPC214x_TimerIRQ_Tutorial.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'OCFreaks.com_LPC214x_TimerIRQ_Tutorial.lnp', Handle=0x000005E4
+### Writing '.lnp' file
+### ADS-LD Command file 'OCFreaks.com_LPC214x_TimerIRQ_Tutorial.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

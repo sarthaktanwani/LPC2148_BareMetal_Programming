@@ -1,0 +1,21 @@
+*** Creating Trace Output File '74hc595_project_file.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"74hc595_c_file.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "74hc595_c_file.o" 
+--strict --scatter "74hc595_project_file.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\74hc595_project_file.map" -o 74hc595_project_file.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '74hc595_project_file.axf'
+### ADS-LD Command File: '74hc595_project_file.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '74hc595_project_file.lnp', Handle=0x00000630
+### Writing '.lnp' file
+### ADS-LD Command file '74hc595_project_file.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

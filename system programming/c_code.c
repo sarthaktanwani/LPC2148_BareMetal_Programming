@@ -1,0 +1,11 @@
+#include<lpc214x.h>
+main()
+{
+	PLL0CFG=0X25;
+	PLL0CON=0X01;
+	PLL0FEED=0XAA;
+	while(PLL0STAT&(1<<10)==0);
+	PLL0CON=0X0B;
+	PLL0FEED=0XAA;
+	PLL0FEED=0X55;
+}

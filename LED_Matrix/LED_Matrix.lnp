@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "led_matrix.o" 
+--strict --scatter "LED_Matrix.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LED_Matrix.map" -o LED_Matrix.axf

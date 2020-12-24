@@ -1,0 +1,57 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\PARTH\Downloads\sarthak_arm\system programming\asli_arm.uvproj
+Project File Date:  11/02/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+assembling Startup.s...
+compiling c_code.c...
+c_code.c(4): error:  #20: identifier "PLLOCFG" is undefined
+c_code.c(7): error:  #20: identifier "PLL0STAT" is undefined
+c_code.c(11): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(4): error:  #20: identifier "PLLOCFG" is undefined
+c_code.c(7): error:  #20: identifier "PLL0STAT" is undefined
+c_code.c(11): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(4): error:  #20: identifier "PLLOCFG" is undefined
+c_code.c(5): error:  #20: identifier "PLLCON" is undefined
+c_code.c(6): error:  #20: identifier "PLLFEED" is undefined
+c_code.c(11): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(4): error:  #20: identifier "PLLOCFG" is undefined
+c_code.c(7): error:  #20: identifier "PLL0STAT" is undefined
+c_code.c(11): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(4): error:  #20: identifier "PLL0CFG" is undefined
+c_code.c(7): error:  #20: identifier "PLL0STAT" is undefined
+c_code.c(11): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(5): error:  #20: identifier "PLLCON" is undefined
+c_code.c(6): error:  #20: identifier "PLLFEED" is undefined
+c_code.c(11): warning:  #1-D: last line of file ends without a newline
+Target not created
+Build target 'Target 1'
+compiling c_code.c...
+c_code.c(11): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=776 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"asli_arm.axf" - 0 Error(s), 1 Warning(s).
+compiling c_code.c...
+c_code.c(11): warning:  #1-D: last line of file ends without a newline
+c_code.c - 0 Error(s), 1 Warning(s).

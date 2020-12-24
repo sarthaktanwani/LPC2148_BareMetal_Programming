@@ -1,0 +1,21 @@
+*** Creating Trace Output File 'Using_custom_delay.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"startup.o"'
+### List of Objects: adding '"c_code.o"'
+### ADS-LD Command completed:
+--cpu ARM7TDMI "startup.o" "c_code.o" 
+--strict --scatter "Using_custom_delay.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Using_custom_delay.map" -o Using_custom_delay.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'Using_custom_delay.axf'
+### ADS-LD Command File: 'Using_custom_delay.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'Using_custom_delay.lnp', Handle=0x00000D74
+### Writing '.lnp' file
+### ADS-LD Command file 'Using_custom_delay.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\PARTH\Desktop\sarthak_arm\Interrupt\OCFreaks.com_LPC214x_TimerIRQ_Tutorial\OCFreaks.com_LPC214x_TimerIRQ_Tutorial.uvproj
+Project File Date:  03/27/2013
+
+<h2>Output:</h2>
+Rebuild target 'OCFreaks.com_LPC214x_TimerIRQ_Tutorial'
+assembling Startup.s...
+compiling main.cpp...
+main.cpp(104): error:  #20: identifier "PLL0CON" is undefined
+main.cpp(106): error:  #20: identifier "PLL0CFG" is undefined
+main.cpp(114): error:  #20: identifier "PLL0FEED" is undefined
+main.cpp(123): error:  #20: identifier "PLL0STAT" is undefined
+main.cpp(126): error:  #20: identifier "PLL0CON" is undefined
+Target not created
+Rebuild target 'OCFreaks.com_LPC214x_TimerIRQ_Tutorial'
+assembling Startup.s...
+compiling main.cpp...
+main.cpp(48): error:  #20: identifier "T0CTCR" is undefined
+main.cpp(104): error:  #20: identifier "PLL0CON" is undefined
+main.cpp(106): error:  #20: identifier "PLL0CFG" is undefined
+main.cpp(114): error:  #20: identifier "PLL0FEED" is undefined
+main.cpp(123): error:  #20: identifier "PLL0STAT" is undefined
+main.cpp(126): error:  #20: identifier "PLL0CON" is undefined
+Target not created
+Rebuild target 'OCFreaks.com_LPC214x_TimerIRQ_Tutorial'
+assembling Startup.s...
+compiling main.cpp...
+linking...
+Program Size: Code=1012 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"OCFreaks.com_LPC214x_TimerIRQ_Tutorial.axf" - 0 Error(s), 0 Warning(s).
+Rebuild target 'OCFreaks.com_LPC214x_TimerIRQ_Tutorial'
+assembling Startup.s...
+compiling main.cpp...
+main.cpp(48): error:  #20: identifier "T0CTCR" is undefined
+main.cpp(104): error:  #20: identifier "PLL0CON" is undefined
+main.cpp(106): error:  #20: identifier "PLL0CFG" is undefined
+main.cpp(114): error:  #20: identifier "PLL0FEED" is undefined
+main.cpp(123): error:  #20: identifier "PLL0STAT" is undefined
+main.cpp(126): error:  #20: identifier "PLL0CON" is undefined
+Target not created
+Rebuild target 'OCFreaks.com_LPC214x_TimerIRQ_Tutorial'
+assembling Startup.s...
+compiling main.cpp...
+linking...
+Program Size: Code=1012 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"OCFreaks.com_LPC214x_TimerIRQ_Tutorial.axf" - 0 Error(s), 0 Warning(s).

@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "c_code.o" 
+--strict --scatter "Using_custom_delay.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Using_custom_delay.map" -o Using_custom_delay.axf

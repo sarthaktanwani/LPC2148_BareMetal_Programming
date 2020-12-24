@@ -1,0 +1,22 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\PARTH\Desktop\sarthak_arm\ADC\ADC.uvproj
+Project File Date:  01/06/2018
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling c_code.c...
+c_code.c(102): warning:  #61-D: integer operation result is out of range
+c_code.c(102): warning:  #68-D: integer conversion resulted in a change of sign
+c_code.c(110): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+c_code.c(97): warning:  #177-D: variable "len" was declared but never referenced
+c_code.c(97): warning:  #177-D: variable "i" was declared but never referenced
+c_code.c(97): warning:  #177-D: variable "a" was declared but never referenced
+linking...
+Program Size: Code=8012 RO-data=192 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"ADC.axf" - 0 Error(s), 6 Warning(s).

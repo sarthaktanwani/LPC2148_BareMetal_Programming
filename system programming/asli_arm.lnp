@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "c_code.o" 
+--strict --scatter "asli_arm.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\asli_arm.map" -o asli_arm.axf

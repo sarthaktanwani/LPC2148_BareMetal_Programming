@@ -1,0 +1,47 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\PARTH\Desktop\Embedded Systems\sarthak_arm\7_seg.uvproj
+Project File Date:  10/28/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling 7_seg.c...
+compiling 7seg_MUX.c...
+linking...
+7_seg.axf: Error: L6200E: Symbol __ARM_use_no_argv multiply defined (by 7seg_mux.o and 7_seg.o).
+7_seg.axf: Error: L6200E: Symbol arr multiply defined (by 7seg_mux.o and 7_seg.o).
+7_seg.axf: Error: L6200E: Symbol _delay_ms multiply defined (by 7seg_mux.o and 7_seg.o).
+7_seg.axf: Error: L6200E: Symbol main multiply defined (by 7seg_mux.o and 7_seg.o).
+Target not created
+Build target 'Target 1'
+compiling 7_seg.c...
+7_seg.c(8): error:  #268: declaration may not appear after executable statement in block
+Target not created
+Build target 'Target 1'
+compiling 7_seg.c...
+linking...
+7_seg.axf: Error: L6200E: Symbol __ARM_use_no_argv multiply defined (by 7seg_mux.o and 7_seg.o).
+7_seg.axf: Error: L6200E: Symbol arr multiply defined (by 7seg_mux.o and 7_seg.o).
+7_seg.axf: Error: L6200E: Symbol _delay_ms multiply defined (by 7seg_mux.o and 7_seg.o).
+7_seg.axf: Error: L6200E: Symbol main multiply defined (by 7seg_mux.o and 7_seg.o).
+Target not created
+Build target 'Target 1'
+compiling 7_seg.c...
+linking...
+7_seg.axf: Error: L6200E: Symbol __ARM_use_no_argv multiply defined (by 7seg_mux.o and 7_seg.o).
+7_seg.axf: Error: L6200E: Symbol arr multiply defined (by 7seg_mux.o and 7_seg.o).
+7_seg.axf: Error: L6200E: Symbol _delay_ms multiply defined (by 7seg_mux.o and 7_seg.o).
+7_seg.axf: Error: L6200E: Symbol main multiply defined (by 7seg_mux.o and 7_seg.o).
+Target not created
+"LPC210x_ISP.EXE" "C:\Users\PARTH\Desktop\Embedded Systems\sarthak_arm\7_seg.HEX" 12000 LPC2148 COM1: 38400 1
+--- Error: failed to execute '"LPC210x_ISP.EXE" "C:\Users\PARTH\Desktop\Embedded Systems\sarthak_arm\7_seg.HEX" 12000 LPC2148 COM1: 38400 1'
+Build target 'Target 1'
+linking...
+7_seg.axf: Error: L6200E: Symbol __ARM_use_no_argv multiply defined (by 7seg_mux.o and 7_seg.o).
+7_seg.axf: Error: L6200E: Symbol arr multiply defined (by 7seg_mux.o and 7_seg.o).
+7_seg.axf: Error: L6200E: Symbol _delay_ms multiply defined (by 7seg_mux.o and 7_seg.o).
+7_seg.axf: Error: L6200E: Symbol main multiply defined (by 7seg_mux.o and 7_seg.o).
+Target not created

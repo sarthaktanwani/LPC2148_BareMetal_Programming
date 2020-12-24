@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "usart_init.o" 
+--strict --scatter "usart_initial.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\usart_initial.map" -o usart_initial.axf

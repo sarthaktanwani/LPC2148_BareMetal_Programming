@@ -1,0 +1,19 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\PARTH\Desktop\Embedded Systems\sarthak_arm\LCD\LED.uvproj
+Project File Date:  02/09/2019
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+assembling Startup.s...
+compiling LCD.c...
+LCD.c(78): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+LCD.c(73): warning:  #177-D: variable "len" was declared but never referenced
+LCD.c(73): warning:  #177-D: variable "i" was declared but never referenced
+linking...
+Program Size: Code=2304 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+"LED.axf" - 0 Error(s), 3 Warning(s).

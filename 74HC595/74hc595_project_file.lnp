@@ -1,0 +1,5 @@
+--cpu ARM7TDMI "startup.o" "74hc595_c_file.o" 
+--strict --scatter "74hc595_project_file.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\74hc595_project_file.map" -o 74hc595_project_file.axf
